@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex2 {
+public class exercicioNota {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -16,7 +16,7 @@ public class ex2 {
         System.out.println("Escreva a presença do aluno em porcentagem");
         double presenca = sc.nextDouble();
 
-        System.out.printf("A media é: %.2f %s", nota, (presenca>=75) ? "- Aprovado": "- Reprovado");
+        System.out.printf("A media é: %.1f %s %n", nota, (presenca>=75) ? "- Aprovado": "- Reprovado");
 
         sc.close();
     }
