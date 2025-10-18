@@ -1,3 +1,4 @@
+package Exercicios_aula;
 import java.util.Scanner;
 
 public class caixas {
@@ -16,6 +17,8 @@ public class caixas {
         Double area = (largura*comprimento + comprimento*altura + altura*largura)*2.0;
 
         System.out.println("A área é:" + area);
+
+        sc.close();
 
     }
 

@@ -1,3 +1,4 @@
+package Estrutura_de_decisao_e_fluxo_condicional.Exercicios_aula;
 import java.util.Scanner;
 
 public class imc {

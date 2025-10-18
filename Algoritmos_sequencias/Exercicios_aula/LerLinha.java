@@ -1,3 +1,4 @@
+package Exercicios_aula;
 import java.util.Scanner;
 
 public class LerLinha {
