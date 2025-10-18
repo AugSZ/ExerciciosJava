@@ -1,11 +1,10 @@
-package Estrutura_de_decisao_e_fluxo_condicional.Lista6;
 import java.util.Scanner;
 
 public class vendas {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        double salario = 20000;
+        double salario = 2000;
 
         System.out.println("Quanto esse funcionário vendeu?");
         double valorDeVendas = sc.nextDouble();
@@ -16,14 +15,14 @@ public class vendas {
          
 
         if (valorDeVendas>=10000) {
-            salario = salario+((salario*7)/100); // comissão se vendeu bastante
+            salario = salario+((valorDeVendas*7)/100); // comissão se vendeu bastante
         }
         else {
-            salario = salario+((salario*5)/100); // comissão se vendeu normal
+            salario = salario+((valorDeVendas*5)/100); // comissão se vendeu normal
         }
         
         if (avaliacao >= 8){
-            salario = salario+((salario*8)/100);
+            salario = salario+500;
         }
 
         System.err.printf("Esse funcionário vai receber %.2f%n", salario);
