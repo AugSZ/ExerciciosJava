@@ -33,5 +33,6 @@ System.out.println(indiceDeMassa);
     else if (indiceDeMassa >= 24.5) {
         System.out.printf("Seu IMC é %.2f, Obesidade. Por favor se cuide", indiceDeMassa);
     }
+    sc.close();
     }
 }

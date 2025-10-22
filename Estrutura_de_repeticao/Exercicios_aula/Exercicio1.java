@@ -7,21 +7,15 @@ public class Exercicio1 {
 
         System.out.println("Escreva um número inteiro não negativo");
 
-        //2024
         int num = scan.nextInt();
         int soma = 0;
         int digito;
-        
+        scan.close();
         for (soma=0; num!=0; soma+=digito){
             digito = num%10;
             num = num/10;
         }
 
         System.out.println(soma);
-        
-
-
-
-        scan.close();
     }
 }

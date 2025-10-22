@@ -12,6 +12,7 @@ public class triangulos {
 
         if ((lado1+lado2)<lado3 || (lado3+lado1)<lado2 || (lado2+lado3)<lado1){
             System.out.println("Inválido");
+            sc.close();
             return;
         }
 
