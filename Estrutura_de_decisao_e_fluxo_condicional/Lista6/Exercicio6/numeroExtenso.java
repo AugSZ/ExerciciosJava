@@ -14,49 +14,35 @@ public class numeroExtenso {
         
         switch (dezena){
             case 0 -> {
-            }
-            case 1 -> {
+            } case 1 -> {
                 if (dezena==1 && unidade==1) {
                     System.out.printf("Onze");
-                }
-                else if (dezena==1 && unidade==2) {
+                } else if (dezena==1 && unidade==2) {
                     System.out.printf("Doze ");
-                }
-                else if (dezena==1 && unidade==3) {
+                } else if (dezena==1 && unidade==3) {
                     System.out.printf("Treze ");
-                }
-                else if (dezena==1 && unidade==4) {
+                } else if (dezena==1 && unidade==4) {
                     System.out.printf("Catorze ");
-                }
-                else if (dezena==1 && unidade==5) {
+                } else if (dezena==1 && unidade==5) {
                     System.out.printf("Quinze");
-                }
-                else {
+                } else {
                     System.out.printf("Dez");
                 }
-            }
-            case 2 -> {
+            } case 2 -> {
                 System.out.printf("Vinte");
-            }
-            case 3 -> {
+            } case 3 -> {
                 System.out.printf("Trinta");
-            }
-            case 4 -> {
+            } case 4 -> {
                 System.out.printf("Quarenta");
-            }
-            case 5 -> {
+            } case 5 -> {
                 System.out.printf("Cinquenta");
-            }
-            case 6 -> {
+            } case 6 -> {
                 System.out.printf("Sessenta");
-            }
-            case 7 -> {
+            } case 7 -> {
                 System.out.printf("Setenta");
-            }
-            case 8 -> {
+            } case 8 -> {
                 System.out.printf("Oitenta");
-            }
-            case 9 -> {
+            } case 9 -> {
                 System.out.printf("Noventa");
             }
         }
@@ -65,32 +51,23 @@ public class numeroExtenso {
         switch (unidade) {
             case 0 -> {
 
-            }
-            case 1 -> {
+            } case 1 -> {
                 System.out.printf("Um");
-            }
-            case 2 -> {
+            } case 2 -> {
                 System.out.printf("Dois");
-            }
-            case 3 -> {
+            } case 3 -> {
                 System.out.printf("Três");
-            }
-            case 4 -> {
+            } case 4 -> {
                 System.out.printf("Quatro");
-            }
-            case 5 -> {
+            } case 5 -> {
                 System.out.printf("Cinco");
-            }
-            case 6 -> {
+            } case 6 -> {
                 System.out.printf("Seis");
-            }
-            case 7 -> {
+            } case 7 -> {
                 System.out.printf("Sete");
-            }
-            case 8 -> {
+            } case 8 -> {
                 System.out.printf("Oito");
-            }
-            case 9 -> {
+            } case 9 -> {
                 System.out.printf("Nove");
             }
         }
@@ -99,14 +76,11 @@ public class numeroExtenso {
         switch (unidade){
             case 6 -> {
                 System.out.printf("esseis");
-            }
-            case 7 -> {
+            } case 7 -> {
                 System.out.printf("essete");
-            }
-            case 8 -> {
+            } case 8 -> {
                 System.out.printf("oito");
-            }
-            case 9 -> {
+            } case 9 -> {
                 System.out.printf("enove");
             }
         }
@@ -115,29 +89,21 @@ public class numeroExtenso {
         switch (unidade){
             case 1 -> {
                 System.out.printf(" e um");
-            }
-            case 2 -> {
+            } case 2 -> {
                 System.out.printf(" e dois");
-            }
-            case 3 -> {
+            } case 3 -> {
                 System.out.printf(" e três");
-            }
-            case 4 -> {
+            } case 4 -> {
                 System.out.printf(" e quatro");
-            }
-            case 5 -> {
+            } case 5 -> {
                 System.out.printf(" e cinco");
-            }
-            case 6 -> {
+            } case 6 -> {
                 System.out.printf(" e seis");
-            }
-            case 7 -> {
+            } case 7 -> {
                 System.out.printf(" e sete");
-            }
-            case 8 -> {
+            } case 8 -> {
                 System.out.printf(" e oito");
-            }
-            case 9 -> {
+            } case 9 -> {
                 System.out.printf(" e nove");
             }
         }
